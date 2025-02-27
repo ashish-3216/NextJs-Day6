@@ -56,3 +56,60 @@
     cursor: pointer;
     margin: 20px auto;
 }
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7fafc;
+    padding: 1.5rem;
+  }
+  
+  .dashboard-button,
+  .signout-button,
+  .signin-button {
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    margin-bottom: 0.75rem;
+  }
+  
+  .dashboard-button {
+    background-color: #3b82f6;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .signout-button {
+    background-color: #ef4444;
+  }
+  
+  .signout-button:hover {
+    background-color: #dc2626;
+  }
+  
+  .signin-button {
+    background-color: #10b981;
+  }
+  
+  .signin-button:hover {
+    background-color: #059669;
+  }
+  
+  .redirect-message {
+    margin-top: 1rem;
+    color: #4b5563;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  .counter {
+    color: #3b82f6;
+  } 

@@ -1,7 +1,6 @@
 import { signIn, signOut, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
-import  "../../styles/login.css";
 
 export default function LoginButton() {
   const { data: session, status } = useSession();
